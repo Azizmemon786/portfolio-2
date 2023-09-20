@@ -1,0 +1,118 @@
+:root {
+    --primary-color: #fff;
+    --secondary-color: #000;
+    --main-color: #caa606;
+}
+.contact{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+}
+.contact .box4 {
+    width: 80%;
+    margin-top: 100px;
+    padding: 30px;    
+    box-shadow: 3px 4px 5px 5px rgba(204 185 185 / .75);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.contact .box4 h2{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: var(--secondary-color);
+}
+.contact .box4 p{
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--secondary-color);
+}
+.cotact-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-block;
+}
+.cotact-list h4{
+    margin-top: 20px;
+    color: var(--secondary-color);
+    color: var(--main-color);
+}
+.cotact-list p{
+    margin-bottom: 10px;
+    color: var(--secondary-color);
+}
+ form{
+    margin-top: 50px;
+}
+ form input{
+    width: 100%;
+    font-size: 13px;
+    border: none;
+    outline: none;
+    color: var(--secondary-color);
+    border-bottom: .1px solid var(--secondary-color);
+    overflow: hidden;
+}
+form input:hover{
+    border-bottom: .1px solid var(--main-color);
+}
+input[type=text]{
+    padding: 20px 0;
+    color: var(--secondary-color);
+    background: transparent;
+}
+input[type=email]{
+    padding: 20px 0;
+    color: var(--secondary-color);
+    background: transparent;
+}
+input[type=number]{
+    padding: 20px 0;
+    color: var(--secondary-color);
+    background: transparent;
+}
+input[type=text]{
+    padding: 20px 0;
+    color: var(--secondary-color);
+    background: transparent;
+}
+::placeholder{
+    color: var(--secondary-color);
+}
+.contact textarea{
+    width: 100%;
+    margin-top: 40px;
+    display: block;
+    resize: vertical;
+    border-top: .1px solid var(--secondary-color);
+    border-bottom:  .1px solid var(--secondary-color);
+    outline: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    padding: 20px 0;
+}
+.contact textarea:hover{
+    border: var(--main-color) .1px solid;
+    border-left: none;
+    border-right: none;
+}
+
+
+.map{
+    width: 100%;
+
+}
+.map div iframe{
+    width: 80%;
+    margin-top: 100px;
+    padding: 10px;    
+    box-shadow: 3px 4px 5px 5px rgba(204 185 185 / .75);
+   display: block;
+   margin: auto;
+}

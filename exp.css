@@ -1,0 +1,66 @@
+:root {
+    --primary-color: #fff;
+    --secondary-color: #000;
+    --main-color: #caa606;
+}
+
+.exp {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+     
+    }
+
+.exp .box3 {
+    width: 500px;
+    margin-top: 100px;
+    padding: 30px;    
+    box-shadow: 3px 4px 5px 5px rgba(204 185 185 / .75);
+    position: relative;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.exp .box3 #expi {
+    position: absolute;
+    top: -20px;
+    font-size: 40px;
+    display: block;
+    color: var(--main-color);
+}
+
+.exp .box3 h3 {
+    font-size: 20px;
+    color: var(--main-color);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: var(--secondary-color);
+}
+
+.exp .box3 h2 {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: var(--secondary-color);
+}
+
+.exp .box3 h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: var(--secondary-color);
+}
+
+.exp .box3 #loc {
+    margin-right: 10px;
+    color: var(--main-color);
+}
+.exp .box3 p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 30px;
+    font-weight: 500;
+    color: var(--secondary-color);
+}

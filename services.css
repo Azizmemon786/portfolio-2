@@ -1,0 +1,113 @@
+:root {
+    --primary-color: #fff;
+    --secondary-color: #000;
+    --main-color: #caa606;
+}
+
+.services {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sevices-igive-you {
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.sevices-igive-you .boxes {
+    width: 250px;
+    box-shadow: 3px 4px 5px 5px rgba(204 185 185 / .75);
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.sevices-igive-you .boxes:hover{
+    background: var(--main-color);
+}
+.sevices-igive-you .boxes:hover i{
+    color: var(--primary-color);
+}
+.sevices-igive-you .boxes:hover h2{
+    color: var(--primary-color);
+}
+.sevices-igive-you .boxes:hover p{
+    color: var(--primary-color);
+}
+.sevices-igive-you .boxes i{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: var(--main-color);
+}
+.sevices-igive-you .boxes h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+.sevices-igive-you .boxes p{
+    font-weight: 300;
+    color: var(--secondary-color);
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+
+
+.services2 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sevices-igive-you2 {
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.sevices-igive-you2 .boxes2 {
+    width: 260px;
+    box-shadow: 3px 4px 5px 5px rgba(204 185 185 / .75);
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.sevices-igive-you2 .boxes2 h3{
+    font-size: 25px;
+}
+.sevices-igive-you2 .boxes2 h3 span{
+color: var(--main-color);
+font-size: 50px;
+}
+.sevices-igive-you2 .boxes2 h2{
+    padding: 15px;
+    font-size: 20px;
+    color: var(--secondary-color);
+font-weight: 600;
+}
+.sevices-igive-you2 .boxes2 h4{
+padding: 10px;
+display: inline-block;
+color: var(--secondary-color);
+font-weight: 600;
+}
+.sevices-igive-you2 .boxes2 h4 span i{
+    color: var(--main-color);
+    margin-right: 5px;
+}
+.sevices-igive-you2 .boxes2 .btn .hire{
+    background: var(--main-color);
+    border: none;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    display: block;
+    margin: auto;
+}

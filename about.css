@@ -1,0 +1,243 @@
+:root {
+    --primary-color: #fff;
+    --secondary-color: #000;
+    --main-color: #caa606;
+}
+.heading-title {
+    text-align: center;
+    text-transform: uppercase;
+}
+.heading-title h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--secondary-color);
+    margin-top: 150px;
+}
+
+.hero2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.hero-left .box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-left .box .stiesfied{
+    padding: 30px 50px;
+    background: #fff4f4;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.hero-left .box .stiesfied h1{
+    font-size: 50px;
+    color: var(--main-color);
+    font-weight: 700;
+    text-align: center;
+}
+.hero-left .box .stiesfied p{
+font-size: 16px;
+font-weight: 700;
+color: #000;
+}
+.hero2 .hero-right{
+    margin-right: 50px;
+}
+.hero2 .hero-right h4{
+    font-size: 12px;
+    color: var(--main-color);
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+.hero2 .hero-right h1{
+    color: var(--secondary-color);
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.hero2 .hero-right p{
+    color: var(--secondary-color);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.hero-right .bio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.hero-right .data{
+    display: inline-flex;
+}
+.hero-right .data h3{
+color: var(--secondary-color);
+font-weight: 700;
+font-size: 15px;
+}
+.hero-right span {
+    color: var(--main-color);
+}
+.btn2{
+    margin-top: 40px;
+}
+.btn2 .hire {
+    font-size: 16x;
+    text-decoration: none;
+    background: transparent;
+    color: var(--secondary-color);
+    font-weight: 700;
+    padding: 10px;
+    border: 2px solid var(--main-color);
+    box-shadow: 0px 0px 3px var(--main-color);
+    background: var(--main-color);
+    margin-top: 30px;
+}
+@media only screen and (max-width : 870px) {
+    .hero-left .box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero2 .hero-right {
+       margin-left: 30px;
+    }
+  
+} 
+@media only screen and (max-width : 500px){
+     .hero2 .hero-right h1{
+        font-size: 25px;
+        font-weight: 700;
+     }
+}
+
+
+
+
+.heading-title2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.heading-title2 h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--secondary-color);
+    margin-top: 200px;
+}
+
+
+
+
+.skills{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.skills .progress{
+    margin-bottom: 25px;
+}
+.skills .progress h4{
+    margin: 0 0 15px 15px;
+    letter-spacing: .5px;
+    font-size: 900;
+}
+.skills .progress .prgress-bar{
+    position: relative;
+    width: 80vw;
+    height: 30px;
+    border-radius: 50px;
+    background: var(--primary-color);
+    box-shadow: 3px 4px 5px 0 rgba(204 185 185 / .75);
+}
+.skills .progress .prgress-bar span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 20px;line-height: 1.7;
+    text-align: center;
+    border-radius: 50px;
+    background: var(--main-color);
+    transition: 3s linear;
+}
+
+
+
+
+
+
+
+
+.testimonial{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap ;
+}
+ .heading-title3 h1{
+text-align: center;
+margin-top: 30px;
+font-weight: 700;
+color: var(--secondary-color);
+margin-bottom: 100px;
+}
+.heading-title3 h3{
+    text-align: center;
+    margin-top: 200px;
+    color: var(--main-color);
+    font-weight: 700;
+}
+.card{
+    margin-top: 50px;
+    padding-top: 10px;
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 3px 4px 5px 0 rgba(204 185 185 / .75);
+    position: relative;
+}
+.card .imgbox img{
+    width: 100px;
+    position: relative;
+    border: 1px solid var(--primary-color);
+    border-radius: 50%;
+    margin-top: 50px;
+}
+.imgbox p{
+    width: 300px;
+    padding: 10px;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+.card i{
+    position: absolute;
+   text-align: center;
+   right: 130px;
+   font-size: 30px;
+   margin-top: 10px;
+   color: var(--main-color);
+}
+.comment{
+    position: absolute;
+    left: 100px;
+    top:  70px;
+}
+.comment h2 {
+color: var(--main-color);
+font-weight: 900;
+}
+.comment h4{
+    color: var(--secondary-color);
+}
